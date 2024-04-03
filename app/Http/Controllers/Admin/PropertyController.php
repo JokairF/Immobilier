@@ -24,7 +24,7 @@ class PropertyController extends Controller
     public function create()
     {
         $property = new property();
-        return view('admin.properties.from', [
+        return view('admin.properties.form', [
             'property' => new Property()
         ]);
     }
